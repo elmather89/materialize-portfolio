@@ -1,0 +1,78 @@
+body {
+    background-color: #E9EAEC;
+}
+
+.container {
+    max-width: 960px;
+}
+
+nav {
+    background-color: #333652;
+}
+
+.card {
+    padding: 20px;
+    margin: 10px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #FAD02C;
+
+}
+
+nav ul a {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    color: #FAD02C;
+}
+
+nav ul a:active {
+    color: #333652;
+}
+
+a {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    color: #FAD02C;
+}
+
+p {
+    font-family: 'Crimson Text', cursive;
+}
+
+.card.horizontal {
+    border: solid 2px #E9EAEC;
+}
+
+.contact-form {
+    padding: 10px;
+    margin: 10px;
+}
+
+.submit-link {
+    color: #E9EAEC;
+    font-size: 12px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+    color: #FAD02C;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#email-btn {
+    background-color: #FAD02C;
+}
+
+#write-btn, #linkedin-btn, #github-btn {
+    background-color: #333652;
+}
+
+.fixed-action-btn.direction-top.active {
+    background-color: #FAD02C;  
+}
