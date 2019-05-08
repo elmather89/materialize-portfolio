@@ -16,7 +16,7 @@ nav {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: #FAD02C;
+    color: #333652;
 }
 
 nav ul a {
@@ -81,9 +81,9 @@ h4 {
     background-color: #333652;
 }
 
-.fixed-action-btn.direction-top.active {
+/* .fixed-action-btn.direction-top.active {
     background-color: #FAD02C;  
-}
+} */
 
 .profile {
     float: left;
