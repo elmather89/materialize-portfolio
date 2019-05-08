@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
     // materialize js =======================================
-
     // initialize hero slider
     $('.slider').slider();
 
@@ -25,4 +24,12 @@ $(document).ready(function () {
     });
 
     // end materialize js ====================================
+
+    // GSAP (animation platform) =============================
+    var btnTween = TweenMax.from(".btn-floating.pulse", 2, { x: 100, 
+        ease:Bounce.easeOut });
+
+    var cardTween = TweenMax.from(".card.horizontal", 1, { x: 1000 });
+
+    // end GSAP ==============================================
 });
