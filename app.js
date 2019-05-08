@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    // materialize js =======================================
+
     // initialize hero slider
     $('.slider').slider();
 
@@ -20,5 +22,7 @@ $(document).ready(function () {
 
     $("#github-btn").on("click", function () {
         window.open("https://github.com/elmather89");
-    })
+    });
+
+    // end materialize js ====================================
 });
