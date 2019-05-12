@@ -27,7 +27,8 @@ $(document).ready(function () {
 
     // GSAP (animation platform) =============================
     var btnTween = TweenMax.from(".btn-floating.pulse", 2, { x: 100, 
-        ease:Bounce.easeOut });
+        ease:Bounce.easeOut })
+        .delay(1);
 
     var cardTween = TweenMax.from(".card.horizontal", 1, { x: 1000 });
 
