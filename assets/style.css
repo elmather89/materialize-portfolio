@@ -1,5 +1,6 @@
 body {
-    background-color: #E9EAEC;
+    /* background-color: #E9EAEC; */
+    background-color: #47555F;
 }
 
 .container {
@@ -7,7 +8,8 @@ body {
 }
 
 nav {
-    background-color: #333652;
+    /* background-color: #C8923B; */
+    background-color: #333431;
 }
 
 .card {
@@ -16,13 +18,13 @@ nav {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: #333652;
+    color: #47555F;
 }
 
 nav ul a {
     font-family: 'Permanent Marker', cursive;
     font-size: 24px;
-    color: #FAD02C;
+    color: #BDC0CB;
 }
 
 nav:active {
@@ -30,22 +32,22 @@ nav:active {
 }
 
 nav ul a:active {
-    color: #333652;
+    color: #C8923B;
 }
 
 a {
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
-    color: #FAD02C;
+    color: #BDC0CB;
 }
 
 p {
     font-size: 20px;
-    color: #333652;
+    color: #BDC0CB;
 }
 
 .card.horizontal {
-    border: solid 2px #E9EAEC;
+    border: solid 2px #f6f7f9;
 }
 
 .contact-form {
@@ -62,11 +64,12 @@ p {
 h3 {
     border-bottom: #E9EAEC solid 2px;
     padding-bottom: 10px;
+    color: #BDC0CB;
 }
 
 h4 {
     font-size: 24px;
-    color: #333652;
+    color: #C8923B;
 }
 
 .clearfix {
@@ -74,15 +77,15 @@ h4 {
 }
 
 #email-btn {
-    background-color: #FAD02C;
+    background-color: #BDC0CB;
 }
 
 #write-btn, #linkedin-btn, #github-btn, #resume-btn {
-    background-color: #333652;
+    background-color: #C8923B;
 }
 
 /* .fixed-action-btn.direction-top.active {
-    background-color: #FAD02C;  
+    background-color: #BDC0CB;  
 } */
 
 .profile {

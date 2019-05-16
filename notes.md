@@ -17,3 +17,10 @@ Pewter with a grey blue
 #E9EAEC
 #FAD02C
 #333652
+===========================
+Autumnal colors
+#C8923B burnt yellow
+#9D896B rosy brown
+#333431 dark slate grey
+#BDC0CB light steel blue
+#47555F dark slate grey
