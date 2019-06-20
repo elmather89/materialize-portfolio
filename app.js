@@ -33,4 +33,5 @@ $(document).ready(function () {
     var cardTween = TweenMax.from(".card.horizontal", 1, { x: 1000 });
 
     // end GSAP ==============================================
+
 });
