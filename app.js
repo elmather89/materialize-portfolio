@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
 
     $("#write-btn").on("click", function () {
-        window.open('mailto:elizabethleighmather@gmail.com?subject=Hello&body=body');
+        window.open('mailto:elizabethleighmather@gmail.com?subject=Hello&body=');
     });
 
     $("#linkedin-btn").on("click", function () {
@@ -30,7 +30,7 @@ $(document).ready(function () {
         ease:Bounce.easeOut })
         .delay(1);
 
-    var cardTween = TweenMax.from(".card.horizontal", 1, { x: 1000 });
+    var cardTween = TweenMax.from(".card.large", 1, { x: 1000 });
 
     // end GSAP ==============================================
 
