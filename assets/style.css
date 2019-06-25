@@ -61,6 +61,11 @@ p {
     line-height: 1.2em;
 }
 
+p a {
+    text-transform: uppercase;
+    font-family: 'EB Garamond', serif;
+}
+
 .card.horizontal {
     border: solid 2px #333431;
 }
