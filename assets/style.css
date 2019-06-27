@@ -17,6 +17,14 @@ nav {
     margin: 10px;
 }
 
+.card.large {
+    height: 525px;
+}
+
+/* .card-content {
+    text-overflow: ellipsis;
+} */
+
 .card-image {
     display: block;
     max-width: 400px;
