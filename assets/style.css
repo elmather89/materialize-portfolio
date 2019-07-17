@@ -70,7 +70,7 @@ p {
 }
 
 p a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'EB Garamond', serif;
 }
 
@@ -137,3 +137,10 @@ h4 {
     font-family: 'EB Garamond', serif;
     font-size: 18px;
 }
+
+/* #toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 50%;
+    left:7%;
+  } */

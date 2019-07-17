@@ -6,6 +6,29 @@ $(document).ready(function () {
     // initialize floating button
     $('.fixed-action-btn').floatingActionButton();
 
+    // toast on timer, only once per session
+    var loadTime = moment().format("ss");
+    // console.log(loadTime);
+    
+    time();
+    function time() {
+        var now = moment().format("ss");
+        var diff = now - loadTime;
+        // console.log(now);
+        console.log(diff);
+
+        if (diff == 10 && !sessionStorage.alreadyClicked) {
+            M.toast({html: 'You can contact me using the floating button on the bottom right!', classes: 'rounded', displayLength: 5500});
+            sessionStorage.alreadyClicked = 1;
+            return;
+        }
+        if (sessionStorage.alreadyClicked) {
+            return;
+        }
+        setTimeout(time, 1000);
+    };
+
+    // on clicks
     $("#resume-btn").on("click", function () {
         window.open("./assets/images/ElizabethMatherCV_2019.pdf");
     });
