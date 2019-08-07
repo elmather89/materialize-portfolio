@@ -18,7 +18,7 @@ nav {
 }
 
 .card.large {
-    height: 525px;
+    height: 560px;
 }
 
 /* .card-content {
@@ -61,6 +61,8 @@ nav ul a:active {
 h1 {
     color: #47555F;
     font-size: 24px;
+    float: right;
+    clear: both;
 }
 
 a {
