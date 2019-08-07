@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     // on clicks
     $("#resume-btn").on("click", function () {
-        window.open("./assets/images/ElizabethMatherCV_2019.pdf");
+        window.open("./assets/images/ElizabethMatherCV2019web.pdf");
     });
 
     $("#write-btn").on("click", function () {
